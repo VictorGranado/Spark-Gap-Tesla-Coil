@@ -9,7 +9,7 @@ The physical device was **assembled from a commercial kit**. My work documented 
 > **Project status:** Assembled and demonstrated producing visible electrical discharges.  
 > **Documentation status:** Functional circuit reconstruction completed; component-level PCB netlist and electrical operating values remain unverified.
 
-![Assembled Tesla coil](images/assembled.jpg)
+![Assembled Tesla coil](https://github.com/VictorGranado/Spark-Gap-Tesla-Coil/blob/bb714ca7c7255daf4141e597a1fe079aaa859f23/assembled.jpg)
 
 ## Project objectives
 
@@ -25,7 +25,7 @@ The completed system generated branching violet electrical streamers from the me
 
 | Operating discharge — view 1 | Operating discharge — view 2 |
 |:--:|:--:|
-| ![Violet streamers produced by the coil](images/discharge_01.jpg) | ![Additional view of electrical streamers](images/discharge_02.jpg) |
+| ![Violet streamers produced by the coil](https://github.com/VictorGranado/Spark-Gap-Tesla-Coil/blob/bb714ca7c7255daf4141e597a1fe079aaa859f23/discharge_01.jpg) | ![Additional view of electrical streamers](https://github.com/VictorGranado/Spark-Gap-Tesla-Coil/blob/bb714ca7c7255daf4141e597a1fe079aaa859f23/discharge_02.jpg) |
 
 ## Published specifications
 
@@ -78,11 +78,11 @@ flowchart TD
 
 | ZVS driver board | High-voltage capacitor bank |
 |:--:|:--:|
-| ![ZVS driver PCB](images/zvs_driver.jpg) | ![Series capacitor bank with shunt resistors](images/capacitor_bank.jpg) |
+| ![ZVS driver PCB](https://github.com/VictorGranado/Spark-Gap-Tesla-Coil/blob/bb714ca7c7255daf4141e597a1fe079aaa859f23/zvs_driver.jpg) | ![Series capacitor bank with shunt resistors](https://github.com/VictorGranado/Spark-Gap-Tesla-Coil/blob/bb714ca7c7255daf4141e597a1fe079aaa859f23/capacitor_bank.jpg) |
 
 | Transformer winding | Hand-drawn working circuit |
 |:--:|:--:|
-| ![Transformer winding](images/transformer_winding.jpg) | ![Initial wiring reconstruction](images/wiring_sketch.jpg) |
+| ![Transformer winding](https://github.com/VictorGranado/Spark-Gap-Tesla-Coil/blob/bb714ca7c7255daf4141e597a1fe079aaa859f23/transformer_winding.jpg) | ![Initial wiring reconstruction](https://github.com/VictorGranado/Spark-Gap-Tesla-Coil/blob/bb714ca7c7255daf4141e597a1fe079aaa859f23/wiring_sketch.jpg) |
 
 ## Circuit reconstruction
 
@@ -151,22 +151,7 @@ $$
 
 The photographs document experimental operation; they are **not an endorsement of the test setup as safe**. Do not touch energized components, attempt live probing of exposed high-voltage parts, operate near flammables or sensitive equipment, or assume the input power rating limits the voltage hazard. Inspection and measurements require appropriate high-voltage training, verified discharge procedures, RF grounding, protective clearances, and suitable equipment.
 
-## Repository structure
 
-```text
-.
-├── README.md
-├── docs/
-│   └── Tesla_Coil_GY19206_Reconstruction_v2.pdf
-└── images/
-    ├── assembled.jpg
-    ├── discharge_01.jpg
-    ├── discharge_02.jpg
-    ├── zvs_driver.jpg
-    ├── capacitor_bank.jpg
-    ├── transformer_winding.jpg
-    └── wiring_sketch.jpg
-```
 
 ## References and attribution
 
